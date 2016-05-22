@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/my_css.css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src='js/myjs.js'></script>
+<script>
+	$(function(){
+		myCarousel.init($(".wrap"))
+	})
+	
+	
+</script>
+<title>旋转木马效果</title>
+</head>
+
+<body>
+
+<div class="wrap"  data-info='{
+	"speed":800,
+	"auto":true,
+    "scale":0.9,
+    "vertical":"top"
+
+}'>
+    <div class="left_btn btn" data-icon="lb"></div>
+    <div class="right_btn btn"  data-icon="rb"></div>
+	<div class="items_div">
+    	<img src="img/1.jpg" class="img_tag"/>
+    </div>
+    <div class="items_div">
+    	<img src="img/2.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/3.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/4.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/5.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/6.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/7.jpg" class="img_tag" />
+    </div>
+    
+</div>
+
+
+<div class="wrap" data-info='{
+	"speed":200,
+	"auto":true,
+    "scale":0.5,
+    "vertical":"bottom"
+
+}'>
+    <div class="left_btn btn" data-icon="lb"></div>
+    <div class="right_btn btn"  data-icon="rb"></div>
+	<div class="items_div">
+    	<img src="img/1.jpg" class="img_tag"/>
+    </div>
+    <div class="items_div">
+    	<img src="img/2.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/3.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/4.jpg" class="img_tag" />
+    </div>
+    <div class="items_div">
+    	<img src="img/5.jpg" class="img_tag" />
+    </div>
+    
+</div>
+
+
+
+
+
+</body>
+</html>
